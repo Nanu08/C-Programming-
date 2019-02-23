@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+  {
+    int x_num, y_num;                         // variables.
+    clrscr();
+    printf("Type any Number.\n\n");                       // Message.
+    scanf("%d",&x_num);
+    for(y_num=0;y_num<=10;y_num++)                          // For Loop.
+      {
+        printf("%d * %d = %d",x_num,y_num,x_num*y_num);                       // Targeted Statement.
+      }
+    getch();
+    return 0;
+  }
